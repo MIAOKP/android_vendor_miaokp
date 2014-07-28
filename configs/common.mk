@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     su \
     SwagPapers \
     Torch \
-    UnicornPorn \
+    UnicornBeam \
     KitKatWhite
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -80,6 +80,13 @@ PRODUCT_PACKAGES += \
     mkfs.exfat \
     ntfsfix \
     ntfs-3g
+
+# Stagefright FFMPEG plugins
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
