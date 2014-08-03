@@ -38,4 +38,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # boot animation
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation-alt.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_480.zip:system/media/bootanimation-alt.zip
